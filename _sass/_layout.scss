@@ -1,4 +1,68 @@
 /**
+ * Index
+ */
+#sec-head {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s; 
+}
+
+.section-0 {
+    width: 550px;
+    padding: 50px;
+
+    a.proj-lk {
+        text-decoration: none;
+        border-bottom: 1px dotted;
+    }
+}
+
+
+.social {
+    margin-top: 25%;
+    letter-spacing: 3px;
+}
+
+
+/**
+ * Projects
+ */
+
+.imgWrap {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.imgDescription {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+
+
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility opacity 0.2s;
+
+}
+
+.imgText {
+    padding: 20% 10%;
+    text-align: center;
+}
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+ 
+
+/**
  * About
  */
 #bio-pic {
@@ -223,6 +287,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    background-image: url(../assets/images/ignasi_pattern_s.png);
 }
 
 .page-heading {
