@@ -55,7 +55,7 @@
 }
 
 .imgText {
-    padding: 10% 10%;
+    padding: 15% 10%;
     text-align: center;
 }
 
@@ -65,19 +65,46 @@
 }
 
 .technologies {
+    margin-top: 5%;
     list-style: none;
     display: block;
+
+    li {
+        display: inline;
+        line-height: 35px;
+        padding: 4px 9px;
+        border: 2px solid #fcfcfc;
+        text-shadow: 0 2px 0 rgba(0,0,0,.5);
+    }
 }
 
-.technologies li {
-    display: inline;
-    line-height: 35px;
-    padding: 4px 9px;
-    border: 2px solid #fcfcfc;
-    text-shadow: 0 2px 0 rgba(0,0,0,.5);
+.proj-social {
+    letter-spacing: 8px;
+    a {
+        
+        color: #fcfcfc;
+        &:hover {
+            color: black;
+        }
+    }
+
+} 
+
+.proj-row {
+    margin-top: 5%;
 }
 
+@media (max-width: 480px) {
+    .imgText {
+        font-size: 12px;
+        padding: 10% 10%;
+    }
+}
 
+@media (max-width: 740px) {
+    
+
+}
  
 
 /**
