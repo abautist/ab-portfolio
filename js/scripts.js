@@ -20,5 +20,17 @@ window.onload = function() {
 	});
 }
 
+$(function(){
+  $(document.getElementById("typed")).typed({
+    strings: ["It's an exciting time to be working in the technology industry.",
+              "The Internet has become more accessible than ever before."],
+    typeSpeed: 20
+  });
+});
+
+
+
+
+
 
 
