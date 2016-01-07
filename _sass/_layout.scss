@@ -31,6 +31,9 @@
   position: relative;
   height: 100%;
   width: 100%;
+  border: 5px solid #fcfcfc;
+  box-shadow: 8px 8px 30px 0px #5a5a5a;
+
 }
 
 .imgDescription {
@@ -41,8 +44,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(29, 106, 154, 0.72);
-  color: #fff;
+  background: rgba(76, 76, 76, 0.95);
+  color: #fcfcfc;
 
 
   visibility: hidden;
@@ -52,7 +55,7 @@
 }
 
 .imgText {
-    padding: 20% 10%;
+    padding: 10% 10%;
     text-align: center;
 }
 
@@ -60,6 +63,21 @@
   visibility: visible;
   opacity: 1;
 }
+
+.technologies {
+    list-style: none;
+    display: block;
+}
+
+.technologies li {
+    display: inline;
+    line-height: 35px;
+    padding: 4px 9px;
+    border: 2px solid #fcfcfc;
+    text-shadow: 0 2px 0 rgba(0,0,0,.5);
+}
+
+
  
 
 /**
