@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-<div class="row">
+<div id="proj-head" class="retrieve row animated flipInX">
 	<div id="retrieval" class="imgWrap">
 	  <img src="/assets/images/browser1.png" alt="retrieval" />
 	  <img src="/assets/images/browser2.png" alt="two-retrieval" />
@@ -27,17 +27,16 @@ permalink: /projects/
 	  			<li>Bootstrap 3</li>
 	  			<li>Authentication</li>
 	  			<li>Responsive Web Design</li>
-	  		</ul>
-	  		
+	  		</ul>		
 	  	</div>
 	  </div>
 	</div>
 </div>
 
-<div class="row proj-row">
+<div id="proj-second" class="row proj-row animated zoomIn">
 	<div id="explor" class="imgWrap">
-	  <img src="/assets/images/explor1.png" alt="explor" />
-	  <img src="/assets/images/explor2.png" alt="two-explor" />
+	  <img src="/assets/images/explor3.png" alt="explor" />
+	  <img src="/assets/images/explor4.png" alt="two-explor" />
 	  <div class="imgDescription">
 	  	<div class="imgText">
 	  		<h1>Explor</h1>
@@ -57,6 +56,61 @@ permalink: /projects/
 	  			<li>Yahoo Weather API</li>
 	  			<li>SASS</li>
 	  			<li>HTML5/CSS3</li>
+	  			<li>Heroku</li>
+	  		</ul>		
+	  	</div>
+	  </div>
+	</div>
+</div>
+
+<div class="row proj-row">
+	<div id="jumanji" class="imgWrap">
+	  <img src="/assets/images/jumanji1.png" alt="jumanji" />
+	  <img src="/assets/images/jumanji2.png" alt="two-jumanji" />
+	  <div class="imgDescription">
+	  	<div class="imgText">
+	  		<h1>Jumanji Farm</h1>
+	  		<p>A basic e-commerce site for a small-scale organic farm. A RESTful web application built using Express.js. The site integrates Stripe's API and a login authentication option from Facebook.
+	  		</p>
+	  		<span class="proj-social">	
+	  			<a href="https://github.com/abautist/webstore" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+	  			<a href="https://jumanjifarm.herokuapp.com/" target="_blank"><i class="fa fa-laptop fa-3x"></i></a>
+	  		</span>
+	  		<ul class="technologies">
+	  			<li>Express.js</li>
+	  			<li>Node.js</li>
+	  			<li>PostgresSQL</li>
+	  			<li>Stripe API</li>
+	  			<li>JavaScript</li>
+	  			<li>HTML5/CSS3</li>
+	  			<li>Bootstrap 3</li>
+	  			<li>Facebook oAuth</li>
+	  			<li>Heroku</li>
+	  		</ul>		
+	  	</div>
+	  </div>
+	</div>
+</div>
+
+<div class="row proj-row">
+	<div id="vegquiz" class="imgWrap">
+	  <img src="/assets/images/vegquiz2.png" alt="vegquiz" />
+	  <img class="veg-img" src="/assets/images/vegquiz1.png" alt="two-vegquiz" />
+	  <div class="imgDescription">
+	  	<div class="imgText">
+	  		<h1>Vegetable Challenge</h1>
+	  		<p>A front-end vegetable quiz game. Players are assigned a keyboard buzzer and must guess the correct name of the displayed vegetable before time runs out. This was my first project during my time at General Assembly, Seattle.
+	  		</p>
+	  		<span class="proj-social">	
+	  			<a href="https://github.com/abautist/vegetable-quiz" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+	  			<a href="http://abautist.github.io/vegetable-quiz/" target="_blank"><i class="fa fa-laptop fa-3x"></i></a>
+	  		</span>
+	  		<ul class="technologies">
+	  			<li>JavaScript</li>
+	  			<li>jQuery</li>
+	  			<li>jQuery UI</li>
+	  			<li>HTML5/CSS3</li>
+	  			<li>Sweet Alerts</li>
 	  		</ul>		
 	  	</div>
 	  </div>

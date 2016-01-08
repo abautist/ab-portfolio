@@ -27,6 +27,11 @@
  * Projects
  */
 
+#proj-head, #proj-second {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s; 
+}
+
 .imgWrap {
   position: relative;
   height: 100%;
@@ -46,11 +51,9 @@
   right: 0;
   background: rgba(76, 76, 76, 0.95);
   color: #fcfcfc;
-
-
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: visibility opacity 0.2s;
+ 
 
 }
 
@@ -58,6 +61,10 @@
     padding: 15% 10%;
     text-align: center;
 }
+
+// .veg-quiz {
+//     padding: 5% 10%;
+// }
 
 .imgWrap:hover .imgDescription {
   visibility: visible;
@@ -93,6 +100,7 @@
 .proj-row {
     margin-top: 5%;
 }
+
 
 @media (max-width: 480px) {
     .imgText {
