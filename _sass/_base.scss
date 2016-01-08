@@ -13,6 +13,7 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
@@ -25,6 +26,9 @@ body {
     font-kerning: normal;
 }
 
+h1 {
+    font-family: 'Satisfy', cursive;
+}
 
 
 /**
