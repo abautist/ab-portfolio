@@ -4,14 +4,14 @@ title: Projects
 permalink: /projects/
 ---
 
-<div id="proj-head" class="retrieve row animated flipInX">
+<div id="proj-head" class="retrieve row animated zoomIn">
 	<div id="retrieval" class="imgWrap">
 	  <img src="/assets/images/browser1.png" alt="retrieval" />
 	  <img src="/assets/images/browser2.png" alt="two-retrieval" />
 	  <div class="imgDescription">
 	  	<div class="imgText">
 	  		<h1>Retrieval</h1>
-	  		<p>A MEAN stack web application with full CRUD functionality. Users can view and search existing flashcards. Cards can be created and added to the database after signup. Active retrieval usings tools like flashcards are beneficial to learning retention and improved understanding.</p>
+	  		<p>A MEAN stack web application with full CRUD functionality. Users can view and search existing flashcards. Cards can be created and added to the database after signup. Active retrieval using tools like flashcards are beneficial to learning retention and improved understanding.</p>
 	  		<span class="proj-social">	
 	  			<a href="https://github.com/abautist/flashcard-app" target="_blank"><i class="fa fa-github fa-3x"></i></a>
 	  			<a href="http://retrieval.herokuapp.com/" target="_blank"><i class="fa fa-laptop fa-3x"></i></a>

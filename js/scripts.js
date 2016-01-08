@@ -22,11 +22,14 @@ window.onload = function() {
 
 $(function(){
   $(document.getElementById("typed")).typed({
-    strings: ["It's an exciting time to be working in the technology industry.",
-              "The Internet has become more accessible than ever before."],
-    typeSpeed: 20
+    strings: ["Access to the Internet and developer tools continues to grow.<br />The potential for more people to create great products has expanded.^300 <br /> It's truly an exciting time to be working in the tech industry!"],
+    typeSpeed: 10,
+    contentType: "html",
+    showCursor: false,
   });
 });
+
+
 
 
 

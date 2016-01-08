@@ -1,14 +1,38 @@
 /**
  * Index
  */
-#sec-head {
+#ani-hd {
     -webkit-animation-duration: 5s;
     animation-duration: 5s; 
 }
 
+#sec-head {
+    font-family: 'Satisfy', cursive;
+    font-size: 60px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.sm-hd {
+    margin-bottom: 15px;
+}
+
+.hd-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#bio-pic {
+    border-radius: 50%;
+    width: 150px;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;  
+}
+
 .section-0 {
-    width: 550px;
-    padding: 50px;
+    text-align: center;
+    height: 500px;
+    padding-top: 8%;
 
     a.proj-lk {
         text-decoration: none;
@@ -18,18 +42,20 @@
 
 
 .social {
-    margin-top: 25%;
     letter-spacing: 3px;
 }
 
+.typed-row {
+    margin-top: 2%;
+}
 
 /**
  * Projects
  */
 
 #proj-head, #proj-second {
-    -webkit-animation-duration: 3s;
-    animation-duration: 3s; 
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s; 
 }
 
 .imgWrap {
@@ -63,11 +89,6 @@
     padding: 15% 10%;
     text-align: center;
 }
-
-// .veg-quiz {
-//     padding: 5% 10%;
-// }
-
 
 .imgWrap:hover .imgDescription {
   visibility: visible;
@@ -121,9 +142,7 @@
 /**
  * About
  */
-#bio-pic {
-    box-shadow: 8px 8px 30px 0px #323232;
-}
+
 
 .col-left {
     float: right;
@@ -281,12 +300,6 @@
     margin-bottom: $spacing-unit / 2;
 }
 
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
-
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
@@ -295,24 +308,12 @@
 }
 
 .footer-col {
-    float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
 }
 
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+.foot-data {
+    text-align: center;
 }
 
 @include media-query($on-laptop) {
