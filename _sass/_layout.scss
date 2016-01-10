@@ -18,6 +18,10 @@
     font-size: 60px;
     display: inline-block;
     margin-bottom: 5px;
+
+    @include media-query($on-palm) {
+        font-size: 46px;
+    }
 }
 
 .sm-hd {
@@ -36,6 +40,12 @@
     animation-duration: 5s;  
 }
 
+#typed {
+    @include media-query($on-palm) {
+        padding: 0% 10%;
+        font-size: 14px;
+    }
+}
 .section-0 {
     text-align: center;
     height: 500px;
@@ -66,46 +76,49 @@
 }
 
 .imgWrap {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  border: 5px solid #fcfcfc;
-  box-shadow: 8px 8px 30px 0px #5a5a5a;
-
-
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 5px solid #fcfcfc;
+    box-shadow: 8px 8px 30px 0px #5a5a5a;
 }
 
 .imgDescription {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(76, 76, 76, 0.95);
-  color: #fcfcfc;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.8s linear;
- 
-
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(76, 76, 76, 0.95);
+    color: #fcfcfc;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.8s linear;
 }
 
 .imgText {
     padding: 15% 10%;
     text-align: center;
+
+    @include media-query($on-palm) {
+        padding: 5% 10%;
+        font-size: 12px;
+    }
 }
 
 .imgWrap:hover .imgDescription {
-  visibility: visible;
-  opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }
 
 .technologies {
     margin-top: 5%;
     list-style: none;
     display: block;
+    margin-left: 0px;
+
 
     li {
         @include line-items;
@@ -127,19 +140,6 @@
 .proj-row {
     margin-top: 5%;
 }
-
-
-@media (max-width: 480px) {
-    .imgText {
-        font-size: 12px;
-        padding: 10% 10%;
-    }
-}
-
-@media (max-width: 740px) {
-    
-
-}
  
 
 /**
@@ -151,6 +151,7 @@
     font-size: 40px;
     color: #333333;
     text-align: center;
+    margin-left: 0px;
 
     li {
         display: inline;
@@ -163,7 +164,7 @@
 .rad-charts {
     text-align: center;
 
-    h3 {
+    h2 {
        font-family: 'Satisfy', cursive; 
     }
 }
@@ -172,7 +173,8 @@
     text-align: center;
     
     h2 {
-        font-family: 'Satisfy', cursive;     
+        font-family: 'Satisfy', cursive;   
+        margin-bottom: 20px;  
     }
 
     img {
@@ -184,44 +186,6 @@
     }
 }
 
-
-
-
-@media (max-width: 480px) {
-    #bio-pic {
-        max-width: 180px;
-        box-shadow: none;
-    }
-
-    .col-left {
-        font-size: 14px;
-        width: 100%;
-        text-align: center;
-        margin-bottom: 3%;
-
-    }
-    .col-right {
-        font-size: 14px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 740px) {
-    
-    #biopic {
-        max-width: 100px;
-    }
-
-    .col-left {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 3%;
-
-    }
-    .col-right {
-        width: 100%;
-    }
-}
 
 /**
  * Site header
@@ -246,6 +210,10 @@
     &,
     &:visited {
         color: $grey-color-dark;
+    }
+
+    @include media-query($on-palm) {
+        font-size: 18px;
     }
 }
 

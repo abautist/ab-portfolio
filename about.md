@@ -28,12 +28,12 @@ I am a full-stack web developer who enjoys the coding build process, the challen
 <br />
 <div class="row">
 	<div class="col-xs-12">
-		<div class="rad-charts col-sm-6">
-			<h3>Top Skills</h3>
+		<div id="rad-chart1" class="rad-charts col-sm-6">
+			<h2>Top Skills</h2>
 			<canvas id="myChart" width="400" height="400"></canvas>	
 		</div>
 		<div class="rad-charts col-sm-6">
-			<h3>Interests</h3>
+			<h2>Interests</h2>
 			<canvas id="secChart" width="400" height="400"></canvas>	
 		</div>
 	</div>

@@ -33,7 +33,7 @@ permalink: /projects/
 	</div>
 </div>
 
-<div id="proj-second" class="row proj-row animated zoomIn">
+<div id="proj-second" class="row proj-row animated fadeIn">
 	<div id="explor" class="imgWrap">
 	  <img src="/assets/images/explor3.png" alt="explor" />
 	  <img src="/assets/images/explor4.png" alt="two-explor" />
