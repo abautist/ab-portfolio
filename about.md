@@ -5,13 +5,59 @@ permalink: /about/
 ---
 
 I am a full-stack web developer who enjoys the coding build process, the challenges and of course, the final product. My goal is to work on web applications that are meaningful and improve quality of life. The best thing about coding is that you will learn something new every day!
-
-<canvas id="myChart" width="400" height="400"></canvas>
-
-
-
-
-
-<div class="col-left"><img id="bio-pic" src="/assets/images/ab1.png" /></div>
-<div class="col-right">I recently completed a 12-week web development immersive program at <strong><a href="https://generalassemb.ly/seattle">General Assembly, Seattle</a></strong>. Curriculum covered HTML5, CSS3, Javascript, jQuery, Node.js, Express.js, PostgresSQL, MongoDB, Ruby on Rails, AngularJS and other technologies. <br /><br />My goal is to work on web applications that are meaningful and improve quality of life. I'm excited to be working in tech because we've reached a point where the proliferation of open-source frameworks, online forums and improvements in documentation have created an environment where coding languages are more accessible to a greater number of people and as a result the potential to build great products and applications has expanded. <br /><br />My personal interests range from eating well and staying active to advocating for food system reform and improving my knowledge of great films. Before web development, I started an <strong><a href="http://bit.ly/1IXwwJg">organic vegetable farm</a></strong> and sold produce to the greater Seattle area. Before farming, I worked in Beijing and Singapore at <strong><a href="https://www.ogilvypr.com/">Ogilvy Public Relations</a></strong>.
+<div class="row">
+	<div class="col-xs-12">
+		<ul class="dev-icons">
+			<li><i class="devicon-angularjs-plain"></i></li>
+			<li><i class="devicon-bootstrap-plain"></i></li>
+			<li><i class="devicon-css3-plain"></i></li>
+			<li><i class="devicon-github-plain"></i></li>
+			<li><i class="devicon-heroku-plain"></i></li>
+			<li><i class="devicon-html5-plain"></i></li>
+			<li><i class="devicon-javascript-plain"></i></li>
+			<li><i class="devicon-jquery-plain"></i></li>
+			<li><i class="devicon-mongodb-plain"></i></li>
+			<li><i class="devicon-nodejs-plain"></i></li>
+			<li><i class="devicon-postgresql-plain"></i></li>
+			<li><i class="devicon-rails-plain"></i></li>
+			<li><i class="devicon-ruby-plain"></i></li>
+			<li><i class="devicon-sass-original"></i></li>
+		</ul>
+	</div>
 </div>
+<br />
+<div class="row">
+	<div class="col-xs-12">
+		<div class="rad-charts col-sm-6">
+			<h3>Top Skills</h3>
+			<canvas id="myChart" width="400" height="400"></canvas>	
+		</div>
+		<div class="rad-charts col-sm-6">
+			<h3>Interests</h3>
+			<canvas id="secChart" width="400" height="400"></canvas>	
+		</div>
+	</div>
+</div>
+<br />
+<div class="rad-charts row exp-icons">
+		<h2>Experience</h2>
+		<div class="col-md-4">
+			<div><a href="https://generalassemb.ly/seattle"><img src="/assets/images/ga_logo.jpeg" /></a></div>
+			<br />
+			<h4>General Assembly<br /><small>Sep - Dec 2015</small></h4>
+			<p>12-week full-stack web development immersive</p>
+		</div>
+		<div class="col-md-4">
+			<div><a href="http://www.jumanjifarm.com/"><img src="/assets/images/JF_logo.png" /></a></div>
+			<br />
+			<h4>Jumanji Farm<br /><small>May 2014 - Present</small></h4>
+			<p>Sold organic produce to the Greater Seattle area</p>
+		</div>
+		<div class="col-md-4">
+			<div><a href="https://www.ogilvypr.com/"><img src="/assets/images/logo-ogilvy.png" /></a></div>
+			<br />
+			<h4>Ogilvy PR<br /><small>Aug 2009 - Dec 2012</small></h4>
+			<p>Client account management based in Asia</p>
+		</div>
+</div>
+

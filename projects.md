@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-<div id="proj-head" class="retrieve row animated zoomIn">
+<div id="proj-head" class="retrieve row animated fadeIn">
 	<div id="retrieval" class="imgWrap">
 	  <img src="/assets/images/browser1.png" alt="retrieval" />
 	  <img src="/assets/images/browser2.png" alt="two-retrieval" />

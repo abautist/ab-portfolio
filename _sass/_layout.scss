@@ -1,3 +1,11 @@
+@mixin line-items {
+    display: inline;
+    line-height: 35px;
+    padding: 4px 9px;
+    border: 2px solid #fcfcfc;
+    text-shadow: 0 2px 0 rgba(0,0,0,.5);
+}
+
 /**
  * Index
  */
@@ -17,7 +25,7 @@
 }
 
 .hd-title {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 15px;
 }
 
@@ -53,8 +61,8 @@
  */
 
 #proj-head, #proj-second {
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s; 
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s; 
 }
 
 .imgWrap {
@@ -100,11 +108,7 @@
     display: block;
 
     li {
-        display: inline;
-        line-height: 35px;
-        padding: 4px 9px;
-        border: 2px solid #fcfcfc;
-        text-shadow: 0 2px 0 rgba(0,0,0,.5);
+        @include line-items;
     }
 }
 
@@ -143,16 +147,45 @@
  */
 
 
-.col-left {
-    float: right;
-    margin-left: 2%;
-    margin-top: 1%;
+.dev-icons {
+    font-size: 40px;
+    color: #333333;
+    text-align: center;
 
+    li {
+        display: inline;
+        // line-height: 35px;
+        padding: 9px 9px;
+        // text-shadow: 0 2px 0 rgba(0,0,0,.5);
+    }
 }
 
-.col-right {
-    text-align: justify;
+.rad-charts {
+    text-align: center;
+
+    h3 {
+       font-family: 'Satisfy', cursive; 
+    }
 }
+
+.exp-icons {
+    text-align: center;
+    
+    h2 {
+        font-family: 'Satisfy', cursive;     
+    }
+
+    img {
+        border-radius: 50%;
+    } 
+
+    .exp-logo:hover {
+        background-color: black;
+    }
+}
+
+
+
 
 @media (max-width: 480px) {
     #bio-pic {
