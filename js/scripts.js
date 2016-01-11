@@ -18,7 +18,7 @@ var radarData = {
 
 // radar chart personal interests
 var personalData = {
-    labels: ["Farming", "Yoga", "Cycling", "Premier League", "Film", "Travel"],
+    labels: ["Farming", "Yoga", "Cycling", "Premier League", "Cooking", "Film", "Travel"],
     datasets: [
         {
             label: "Interests",
@@ -28,7 +28,7 @@ var personalData = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(151,187,205,1)",
-            data: [90, 60, 85, 80, 85, 95]
+            data: [90, 60, 85, 80, 70, 85, 95]
         }
     ]
 };
@@ -51,6 +51,22 @@ $(function(){
     contentType: "html",
     showCursor: false
   });
+
+//Reference: Learning jQuery 10/20/07 post
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+
+
 });
 
 

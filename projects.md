@@ -11,7 +11,8 @@ permalink: /projects/
 	  <div class="imgDescription">
 	  	<div class="imgText">
 	  		<h1>Retrieval</h1>
-	  		<p>A MEAN stack web application with full CRUD functionality. Users can view and search existing flashcards. Cards can be created and added to the database after signup. Active retrieval using tools like flashcards are beneficial to learning retention and improved understanding.</p>
+	  		<p>A MEAN stack web application with full CRUD functionality. Users can view and search existing flashcards. Cards can be created and added to the database after signup. Retrieval practice of knowledge, such as using flashcards, is beneficial to retaining new and old information and improving memory.
+	  		</p>
 	  		<span class="proj-social">	
 	  			<a href="https://github.com/abautist/flashcard-app" target="_blank"><i class="fa fa-github fa-3x"></i></a>
 	  			<a href="http://retrieval.herokuapp.com/" target="_blank"><i class="fa fa-laptop fa-3x"></i></a>
@@ -99,7 +100,7 @@ permalink: /projects/
 	  <div class="imgDescription">
 	  	<div class="imgText">
 	  		<h1>Vegetable Challenge</h1>
-	  		<p>A front-end vegetable quiz game. Players are assigned a keyboard buzzer and must guess the correct name of the displayed vegetable before time runs out. This was my first project during my time at General Assembly, Seattle.
+	  		<p>A front-end vegetable quiz game. Players are assigned a keyboard buzzer and must guess the correct name of the displayed vegetable before time runs out. This was my first project during my time at General Assembly Seattle.
 	  		</p>
 	  		<span class="proj-social">	
 	  			<a href="https://github.com/abautist/vegetable-quiz" target="_blank"><i class="fa fa-github fa-3x"></i></a>

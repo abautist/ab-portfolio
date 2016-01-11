@@ -6,9 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Build (don't break) the Internet
+title: Let's build (not break) the Internet.
 email: abautist703@gmail.com
-description: "I am a full-stack web developer who enjoys the coding build process, the challenges and of course, the final product. My goal is to work on web applications that are meaningful and improve quality of life. The best thing about coding is that you will learn something new every day!"
+description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: ""

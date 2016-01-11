@@ -4,9 +4,13 @@ title: About
 permalink: /about/
 ---
 
-I am a full-stack web developer who enjoys the coding build process, the challenges and of course, the final product. My goal is to work on web applications that are meaningful and improve quality of life. The best thing about coding is that you will learn something new every day!
+<div class="abt-me">I am a full-stack web developer who enjoys the planning, problem-solving, and design components necessary to build clean, responsive web applications. I value organizations that foster a culture of collaboration, support and mutual respect, where managers challenge and encourage their staff and colleagues are passionate about the organization's mission. Each day I wake up excited to be working in a field I feel passionate about and where the learning is limitless. 
+</div>
+<br />
 <div class="row">
 	<div class="col-xs-12">
+		<div class="col-xs-1"></div>
+		<div class="col-xs-10">
 		<ul class="dev-icons">
 			<li><i class="devicon-angularjs-plain"></i></li>
 			<li><i class="devicon-bootstrap-plain"></i></li>
@@ -23,6 +27,8 @@ I am a full-stack web developer who enjoys the coding build process, the challen
 			<li><i class="devicon-ruby-plain"></i></li>
 			<li><i class="devicon-sass-original"></i></li>
 		</ul>
+		</div>
+		<div class="col-xs-1"></div>
 	</div>
 </div>
 <br />
