@@ -46,7 +46,7 @@ window.onload = function() {
 
 $(function(){
   $(document.getElementById("typed")).typed({
-    strings: ["Access to the Internet and developer tools continues to grow.<br />The potential for more people to create great products has expanded.^300 <br /> It's truly an exciting time to be working in the tech industry!"],
+    strings: ["The Internet and developer tools are more accessible than ever before.^300<br /> It's truly an exciting time to be working in the tech industry!"],
     typeSpeed: 10,
     contentType: "html",
     showCursor: false

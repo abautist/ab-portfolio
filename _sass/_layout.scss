@@ -41,31 +41,43 @@
     animation-duration: 5s;  
 }
 
+.typed-row {
+    margin-top: 2%;
+}
+
 #typed {
     @include media-query($on-palm) {
         padding: 0% 10%;
-        font-size: 14px;
     }
 }
 .section-0 {
     text-align: center;
     height: 500px;
     padding-top: 8%;
+}
 
-    a.proj-lk {
-        text-decoration: none;
-        border-bottom: 1px dotted;
+.social {
+    letter-spacing: 3px;
+    margin-top: 15px;
+
+    .fa-github:hover {    
+        color: #ffa500;
+    }
+
+    .fa-camera-retro:hover {
+        color: #cc0000;
+    }
+
+    .fa-envelope-o:hover {
+        color: #198C19;
+    }
+
+    .fa-file-text-o:hover { 
+        color: #800080;
     }
 }
 
 
-.social {
-    letter-spacing: 3px;
-}
-
-.typed-row {
-    margin-top: 2%;
-}
 
 /**
  * Projects
@@ -141,8 +153,8 @@
 
 .proj-social {
     letter-spacing: 8px;
-    a {
-        
+    
+    a {    
         color: #fcfcfc;
         &:hover {
             color: black;
