@@ -11,7 +11,7 @@ permalink: /projects/
 	  <div class="imgDescription">
 	  	<div class="imgText">
 	  		<h1>Retrieval</h1>
-	  		<p>A MEAN stack web application with full CRUD functionality. Users can view and search existing flashcards. Cards can be created and added to the database after signup. Retrieval practice of knowledge, such as using flashcards, is beneficial to retaining new and old information and improving memory.
+	  		<p>A MEAN stack web application with full CRUD functionality and responsive web design. Users can view and search existing flashcards. Cards can be created and added to the database after signup. Retrieval practice of knowledge, such as using flashcards, is beneficial to retaining new and old information and improving memory.
 	  		</p>
 	  		<span class="proj-social">	
 	  			<a href="https://github.com/abautist/flashcard-app" target="_blank"><i class="fa fa-github fa-3x"></i></a>
@@ -41,7 +41,7 @@ permalink: /projects/
 	  <div class="imgDescription">
 	  	<div class="imgText">
 	  		<h1>Explor</h1>
-	  		<p>A team project built as a concept app in one week, Explor is a travel app that provides a snapshot of a location - weather, restaurants, cultural sites and nightlife - based on a user's search. Explor was built with Ruby on Rails, incorporating several API calls.
+	  		<p>A team project built as a concept app in one week, Explor provides a travel snapshot of a location - weather, restaurants, cultural sites and nightlife - based on a user's search. Explor was built with Ruby on Rails, incorporating several API calls.
 	  		</p>
 	  		<span class="proj-social">	
 	  			<a href="https://github.com/abautist/explor-group-app" target="_blank"><i class="fa fa-github fa-3x"></i></a>

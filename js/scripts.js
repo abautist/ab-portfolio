@@ -52,7 +52,7 @@ $(function(){
     showCursor: false
   });
 
-//Reference: Learning jQuery 10/20/07 post
+//Smooth Scroll Reference: Learning jQuery 10/20/07 post
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
