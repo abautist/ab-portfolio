@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-<div id="proj-head" class="retrieve row animated fadeIn">
+<div id="proj-head" class="retrieve row">
 	<div id="retrieval" class="imgWrap">
 	  <img src="/assets/images/browser1.png" alt="retrieval" />
 	  <img src="/assets/images/browser2.png" alt="two-retrieval" />
@@ -34,7 +34,7 @@ permalink: /projects/
 	</div>
 </div>
 
-<div id="proj-second" class="row proj-row animated fadeIn">
+<div id="proj-second" class="row proj-row">
 	<div id="explor" class="imgWrap">
 	  <img src="/assets/images/explor3.png" alt="explor" />
 	  <img src="/assets/images/explor4.png" alt="two-explor" />
