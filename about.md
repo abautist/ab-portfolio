@@ -50,13 +50,13 @@ permalink: /about/
 		<div class="col-md-4">
 			<div><a href="https://generalassemb.ly/seattle"><img src="/assets/images/ga_logo.jpeg" /></a></div>
 			<br />
-			<h4>General Assembly<br /><small>Sep - Dec 2015</small></h4>
-			<p>12-week full-stack web development immersive</p>
+			<h4>General Assembly<br /><small>Jan 2016 - Present</small></h4>
+			<p>Full-stack web development immersive Teaching Assistant</p>
 		</div>
 		<div class="col-md-4">
 			<div><a href="http://www.jumanjifarm.com/"><img src="/assets/images/JF_logo.png" /></a></div>
 			<br />
-			<h4>Jumanji Farm<br /><small>May 2014 - Present</small></h4>
+			<h4>Jumanji Farm<br /><small>May 2014 - Dec 2015</small></h4>
 			<p>Sold organic produce to the Greater Seattle area</p>
 		</div>
 		<div class="col-md-4">
