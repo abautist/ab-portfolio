@@ -51,7 +51,7 @@ permalink: /about/
 			<div><a href="https://generalassemb.ly/seattle"><img src="/assets/images/ga_logo.jpeg" /></a></div>
 			<br />
 			<h4>General Assembly<br /><small>Jan 2016 - Present</small></h4>
-			<p>Full-stack web development immersive Teaching Assistant</p>
+			<p>Web development immersive Teaching Assistant</p>
 		</div>
 		<div class="col-md-4">
 			<div><a href="http://www.jumanjifarm.com/"><img src="/assets/images/JF_logo.png" /></a></div>
