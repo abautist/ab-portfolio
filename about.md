@@ -50,7 +50,7 @@ permalink: /about/
 		<div class="col-md-4">
 			<div><a href="https://generalassemb.ly/seattle"><img src="/assets/images/ga_logo.jpeg" /></a></div>
 			<br />
-			<h4>General Assembly<br /><small>Jan 2016 - Present</small></h4>
+			<h4>General Assembly<br /><small>Jan 2016 - Apr 2016</small></h4>
 			<p>Web development immersive Teaching Assistant</p>
 		</div>
 		<div class="col-md-4">
