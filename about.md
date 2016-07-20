@@ -72,4 +72,3 @@ permalink: /about/
 			<p>Client account management based in Asia</p>
 		</div>
 </div>
-<div>
