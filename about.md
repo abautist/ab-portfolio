@@ -51,13 +51,13 @@ permalink: /about/
 			<div><a href="https://www.priceline.com/"><img src="/assets/images/pcln_logo.png" /></a></div>
 			<br />
 			<h4>Priceline.com<br /><small>Jun 2016 - Present</small></h4>
-			<p>Front end developer intern - rental cars product</p>
+			<p>Front end developer intern - Rental Cars product</p>
 		</div>
 		<div class="col-md-6">
 			<div><a href="https://generalassemb.ly/seattle"><img src="/assets/images/ga_logo.jpeg" /></a></div>
 			<br />
 			<h4>General Assembly<br /><small>Jan 2016 - Apr 2016</small></h4>
-			<p>Web development immersive Teaching Assistant</p>
+			<p>Web development immersive teaching assistant</p>
 		</div>
 		<div class="col-md-6">
 			<div><a href="http://www.jumanjifarm.com/"><img src="/assets/images/JF_logo.png" /></a></div>
